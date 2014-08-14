@@ -119,12 +119,12 @@ hi ModeMsg guifg=#000000 guibg=#8787ff gui=BOLD ctermfg=0 ctermbg=105 cterm=BOLD
 
 " Vim 7.x specific colors"{{{
 if version >= 700
-  hi CursorLine guifg=NONE guibg=#262626 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
+  hi CursorLine guifg=NONE guibg=#262626 gui=NONE ctermfg=NONE ctermbg=234 cterm=NONE
   hi CursorColumn guifg=NONE guibg=#121212 gui=NONE ctermfg=NONE ctermbg=233 cterm=BOLD
   hi MatchParen guifg=#afff00 guibg=#af00ff gui=BOLD ctermfg=154 ctermbg=129 cterm=BOLD
   hi Pmenu guifg=#e5e5e5 guibg=#444444 gui=NONE ctermfg=7 ctermbg=238 cterm=NONE
   hi PmenuSel guifg=#000000 guibg=#d7d787 gui=NONE ctermfg=0 ctermbg=186 cterm=NONE
-  hi Search guifg=#d787d7 guibg=#5f005f gui=UNDERLINE ctermfg=176 ctermbg=53 cterm=underline
+  hi Search guifg=#d787d7 guibg=#5f005f gui=UNDERLINE ctermfg=176 ctermbg=53 cterm=UNDERLINE
 endif
 
 hi IncSearch guifg=#1c1c1c guibg=#00d7ff gui=NONE ctermfg=234 ctermbg=45 cterm=NONE
@@ -278,12 +278,12 @@ hi link CTagsMember htmlString
   hi markdownBlockQuote guifg=#00ffff gui=BOLD ctermfg=14 cterm=BOLD
   "}}}
 
-  " Special for Javascript"{{{
+  " Special for JavaScript"{{{
   hi jsFuncCall guifg=#d75f87 guibg=NONE gui=NONE ctermfg=168 ctermbg=NONE cterm=NONE
   hi jsFuncName guifg=#d75f87 guibg=NONE gui=NONE ctermfg=168 ctermbg=NONE cterm=NONE
   hi jsFunction guifg=#d78787 guibg=NONE gui=NONE ctermfg=174 ctermbg=NONE cterm=NONE
 
-  hi jsStringS guifg=#26b3ac guibg=NONE gui=NONE ctermfg=45 ctermbg=NONE cterm=NONE
+  hi jsStringS guifg=#26b3ac guibg=NONE gui=NONE ctermfg=37 ctermbg=NONE cterm=NONE
   hi jsStringD guifg=#d7d75f guibg=NONE gui=NONE ctermfg=185 ctermbg=NONE cterm=NONE
   hi link jsOperator PreProc
   hi link jsNumber Number
@@ -295,7 +295,7 @@ hi link CTagsMember htmlString
 
   " Special for Python"{{{
   "hi link pythonEscape Keyword
-  hi pythonBuiltin guifg=#50bf95 guibg=NONE gui=ITALIC ctermfg=42 cterm=UNDERLINE
+  hi pythonBuiltin guifg=#50bf95 guibg=NONE gui=ITALIC ctermfg=42 cterm=BOLD
   "}}}
 
   " Special for PHP"{{{
