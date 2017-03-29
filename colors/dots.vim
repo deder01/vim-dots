@@ -78,7 +78,7 @@ if version > 580
   endif
 endif
 
-let colors_name="lollipops"
+let colors_name="dots"
 
 if has("gui_running")
   set background=dark
