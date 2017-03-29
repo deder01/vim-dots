@@ -1,4 +1,4 @@
-# deder colorscheme
+# dots color scheme
 
 Dark Vim color scheme using pop colours.
 
