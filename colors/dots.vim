@@ -85,7 +85,7 @@ hi Visual guifg=NONE guibg=#262d51 gui=NONE ctermfg=NONE ctermbg=54 cterm=NONE
 
 hi SpecialKey guifg=#4e4e4e guibg=#000000 gui=NONE ctermfg=239 ctermbg=0 term=NONE
 
-hi WildMenu guifg=#008700 guibg=#ffff00 gui=NONE ctermfg=28 ctermbg=11 cterm=NONE
+hi WildMenu guifg=#008700 guibg=#ffff00 gui=NONE ctermfg=255 ctermbg=11 cterm=NONE
 hi PmenuSbar guifg=#000000 guibg=#ffffff gui=NONE ctermfg=0 ctermbg=15 cterm=NONE
 
 hi Error guifg=NONE guibg=NONE gui=UNDERCURL guisp=#ff6c60 ctermfg=15 ctermbg=88 cterm=NONE
@@ -102,7 +102,7 @@ hi ModeMsg guifg=#000000 guibg=#8787ff gui=BOLD ctermfg=0 ctermbg=105 cterm=BOLD
 
 " Vim 7.x specific colors"{{{
 if version >= 700
-  hi CursorLine guifg=NONE guibg=#262626 gui=NONE ctermfg=NONE ctermbg=234 cterm=NONE
+  hi CursorLine guifg=NONE guibg=#262626 gui=NONE ctermfg=NONE ctermbg=8 cterm=NONE
   hi CursorColumn guifg=NONE guibg=#121212 gui=NONE ctermfg=NONE ctermbg=233 cterm=BOLD
   hi MatchParen guifg=#afff00 guibg=#af00ff gui=BOLD ctermfg=154 ctermbg=129 cterm=BOLD
   hi Pmenu guifg=#e5e5e5 guibg=#444444 gui=NONE ctermfg=7 ctermbg=238 cterm=NONE
@@ -166,7 +166,7 @@ hi link VisualNOS Ignore
 hi DiffAdd guifg=#bcbcbc guibg=#005f00 gui=NONE ctermfg=250 ctermbg=22 cterm=NONE
 hi DiffChange guifg=#bcbcbc guibg=#875fd7 gui=ITALIC ctermfg=250 ctermbg=98 cterm=NONE
 hi DiffDelete guifg=#d7afff guibg=#870000 gui=NONE ctermfg=183 ctermbg=88 cterm=NONE
-hi DiffText guifg=#080808 guibg=#ff5fff gui=BOLD ctermfg=232 ctermbg=207 cterm=BOLD
+hi DiffText guifg=#080808 guibg=#ff5fff gui=BOLD ctermfg=1 ctermbg=20 cterm=BOLD
 "}}}
 
 " Spelling"{{{
