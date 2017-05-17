@@ -164,9 +164,9 @@ hi link VisualNOS Ignore
 
 " VimDiff colors"{{{
 hi DiffAdd guifg=#bcbcbc guibg=#005f00 gui=NONE ctermfg=250 ctermbg=22 cterm=NONE
-hi DiffChange guifg=#bcbcbc guibg=#875fd7 gui=ITALIC ctermfg=250 ctermbg=98 cterm=NONE
-hi DiffDelete guifg=#d7afff guibg=#870000 gui=NONE ctermfg=183 ctermbg=88 cterm=NONE
-hi DiffText guifg=#080808 guibg=#ff5fff gui=BOLD ctermfg=1 ctermbg=20 cterm=BOLD
+hi DiffDelete guifg=#d7afff guibg=#870000 gui=NONE ctermfg=250 ctermbg=88 cterm=NONE
+hi DiffChange guifg=#bcbcbc guibg=#875fd7 gui=NONE ctermfg=250 ctermbg=126 cterm=NONE
+hi DiffText guifg=#080808 guibg=#ff5fff gui=BOLD ctermfg=250 ctermbg=20 cterm=BOLD
 "}}}
 
 " Spelling"{{{
