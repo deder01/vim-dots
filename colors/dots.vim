@@ -122,7 +122,7 @@ hi Keyword guifg=#ffaf00 guibg=NONE gui=ITALIC ctermfg=214 ctermbg=NONE cterm=BO
 hi PreProc guifg=#00afd7 guibg=NONE gui=BOLD ctermfg=38 ctermbg=NONE cterm=BOLD
 hi Conditional guifg=#ffd75f guibg=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
 
-hi Todo guifg=#87005f guibg=#ffff5f gui=BOLD,UNDERLINE ctermfg=89 ctermbg=227 cterm=BOLD
+hi Todo guifg=#87005f guibg=#ffff5f gui=BOLD,UNDERLINE ctermfg=89 ctermbg=NONE cterm=BOLD
 hi Constant guifg=#d75f5f guibg=NONE gui=BOLD,ITALIC ctermfg=167 ctermbg=NONE cterm=BOLD
 
 hi Identifier guifg=#8787d7 guibg=NONE gui=NONE ctermfg=104 ctermbg=NONE cterm=NONE
