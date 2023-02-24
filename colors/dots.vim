@@ -66,6 +66,7 @@ let colors_name="dots"
 if has("gui_running")
   set background=dark
 endif
+hi SignColumn guibg=NONE ctermbg=NONE
 
 hi Normal guifg=#c6c6c6 guibg=#000000 gui=NONE ctermfg=251 ctermbg=0 cterm=NONE
 hi NonText guifg=#ff00ff guibg=#000000 gui=NONE ctermfg=13 ctermbg=0 cterm=NONE
